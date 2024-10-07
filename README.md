@@ -12,25 +12,6 @@ It outputs the total line count while logging any errors for unreadable files or
 
 ---
 
-## Installation
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/username/repository.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd repository
-    ```
-
-3. Make the script executable (if needed):
-    ```bash
-    chmod +x line_count.sh
-    ```
-
----
-
 ## Usage
 
 To run the script, you can provide one or more directories as arguments, or run it without arguments to count lines in the current directory.
@@ -40,7 +21,10 @@ To run the script, you can provide one or more directories as arguments, or run 
 ```
 
 ---
-### Examples:
+
+
+### Examples
+
 Without arguments: counts lines in directory
 ```bash
 ./line_count.sh
@@ -52,16 +36,27 @@ With arguments: counts lines in specified directories
 ./line_count.sh /path/to/dir1 /path/to/dir2
 ```
 
+
 ---
+
+
 ## Output
 The script will output the total number of lines across all readable files:
-```yaml
+```bash
 Number of lines: 1452
 ```
 
 If an error occurs, such as an unreadable file or non=existent paths, they will be logged in an `error.txt` file.
-```javascript
+```bash
 Error: Cannot read file: /path/to/unreadable/file
 ```
+
+---
+
+
+## Error Handling
+
+Errors encountered during execution (such as unreadable files or invalid paths) are logged to `error.txt`. 
+The script continues processing other files and directories even if errors occur.
 
 
