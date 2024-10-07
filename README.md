@@ -36,6 +36,11 @@ With arguments: counts lines in specified directories.
 ./line_count.sh /path/to/dir1 /path/to/dir2
 ```
 
+## Script structure
+
+![Blank board](https://github.com/user-attachments/assets/779ec114-3ec0-4385-b6ec-5255a9f5bb2b)
+
+
 
 ---
 
