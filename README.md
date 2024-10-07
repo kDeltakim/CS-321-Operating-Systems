@@ -25,13 +25,13 @@ To run the script, you can provide one or more directories as arguments, or run 
 
 ### Examples
 
-Without arguments: counts lines in directory
+Without arguments: counts lines in directory.
 ```bash
 ./line_count.sh
 ```
 
 
-With arguments: counts lines in specified directories
+With arguments: counts lines in specified directories.
 ```bash
 ./line_count.sh /path/to/dir1 /path/to/dir2
 ```
