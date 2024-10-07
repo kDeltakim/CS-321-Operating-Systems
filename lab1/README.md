@@ -38,6 +38,7 @@ With arguments: counts lines in specified directories.
 
 ## Script structure
 Edit: I know this is poorly structured. Bear with it for now. I'm still learning.
+Visual diagram of a flow chart that includes the first few steps of the script. Excludes the final output.
 ![Blank board](https://github.com/user-attachments/assets/779ec114-3ec0-4385-b6ec-5255a9f5bb2b)
 
 
