@@ -42,12 +42,12 @@ With arguments: counts lines in specified directories
 
 ## Output
 The script will output the total number of lines across all readable files:
-```bash
+```yaml
 Number of lines: 1452
 ```
 
 If an error occurs, such as an unreadable file or non=existent paths, they will be logged in an `error.txt` file.
-```bash
+```javascript
 Error: Cannot read file: /path/to/unreadable/file
 ```
 
