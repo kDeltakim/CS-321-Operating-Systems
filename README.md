@@ -37,3 +37,31 @@ To run the script, you can provide one or more directories as arguments, or run 
 
 ```bash
 ./line_count.sh [directory1] [directory2] [...]
+```
+
+---
+### Examples:
+Without arguments: counts lines in directory
+```bash
+./line_count.sh
+```
+
+
+With arguments: counts lines in specified directories
+```bash
+./line_count.sh /path/to/dir1 /path/to/dir2
+```
+
+---
+## Output
+The script will output the total number of lines across all readable files:
+```yaml
+Number of lines: 1452
+```
+
+If an error occurs, such as an unreadable file or non=existent paths, they will be logged in an `error.txt` file.
+```javascript
+Error: Cannot read file: /path/to/unreadable/file
+```
+
+
